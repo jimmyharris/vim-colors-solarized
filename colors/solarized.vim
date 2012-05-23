@@ -597,6 +597,10 @@ exe "hi! Todo"           .s:fmt_bold   .s:fg_magenta.s:bg_none
 "                        keywords TODO FIXME and XXX
 "
 "}}}
+" TagList.vim highlighting"{{{
+" ---------------------------------------------------------------------
+exe "hi! MyTagListFileName"         .s:fmt_bold   .s:fg_blue  .s:bg_none
+"}}}
 " Extended highlighting "{{{
 " ---------------------------------------------------------------------
 if      (g:solarized_visibility=="high")
